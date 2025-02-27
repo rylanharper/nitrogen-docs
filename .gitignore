@@ -1,10 +1,12 @@
+# Generated dirs
+dist
+
 # Dev/build outputs
 .output
 .data
 .nuxt
 .nitro
 .cache
-dist
 .vitepress/cache
 
 # Node dependencies
