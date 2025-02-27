@@ -1,0 +1,12 @@
+.dark [img-light] {
+  display: none;
+}
+
+html:not(.dark) [img-dark] {
+  display: none;
+}
+
+p img {
+  margin-top: 20px;
+  border-radius: 8px;
+}

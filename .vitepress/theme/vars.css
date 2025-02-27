@@ -1,0 +1,16 @@
+:root {
+  --vp-c-brand-1: oklch(0.768 0.233 130.85);
+  --vp-c-brand-2: oklch(0.648 0.2 131.684);
+  --vp-c-brand-3: oklch(0.532 0.157 131.589);
+}
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, oklch(0.768 0.233 130.85) 15%, oklch(0.532 0.157 131.589));
+}
+
+.dark {
+  --vp-c-border: #3c3f44;
+  --vp-c-divider: #2e2e32;
+  --vp-c-gutter: #2e2e32;
+}
