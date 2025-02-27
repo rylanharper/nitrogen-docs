@@ -3,15 +3,15 @@
 
   <!-- Cloud with duotone effect -->
   <path d="M152,200c-13.25,0-24-11.14-24-24.89s10.75-24.89,24-24.89a23.33,23.33,0,0,1,8.81,1.73h0A40,40,0,1,1,200,200Z" 
-    fill="oklch(0.707 0.022 261.325 / 0.3)"/>
+    fill="#99a1af4d"/>
   <path d="M152,200c-13.25,0-24-11.14-24-24.89s10.75-24.89,24-24.89a23.33,23.33,0,0,1,8.81,1.73h0A40,40,0,1,1,200,200Z" 
-    fill="none" stroke="oklch(0.707 0.022 261.325)" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    fill="none" stroke="#99a1af" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
 
   <!-- Rainbow arcs with solid colors -->
   <path d="M16,176V160A96,96,0,0,1,178.93,91.17" 
-    fill="none" stroke="oklch(0.648 0.2 131.684)" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    fill="none" stroke="#5ea500" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <path d="M48,176V160a64,64,0,0,1,101.87-51.6" 
-    fill="none" stroke="oklch(0.768 0.233 130.85)" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    fill="none" stroke="#7ccf00" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
   <path d="M80,176V160a32,32,0,0,1,39.42-31.13" 
-    fill="none" stroke="oklch(0.841 0.238 128.85)" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    fill="none" stroke="#9ae600" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
 </svg>
