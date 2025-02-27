@@ -1,6 +1,16 @@
 # Nitrogen Docs
 
-A basic documentation site written for [Nitrogen](https://github.com/rylanharper/nitrogen). Built with [Vitepress](https://vitepress.dev/).
+The documentation for [Nitrogen](https://github.com/rylanharper/nitrogen). Built with [Vitepress](https://vitepress.dev/).
+
+## 💻 Development
+
+> [!TIP]
+> Check out the [Vitepress](https://vitepress.dev/) docs!
+
+### Local Setup
+
+1. Install dependencies using `pnpm install`
+2. Start the development server using `pnpm dev`
 
 ## 🌱 Contribute
 
