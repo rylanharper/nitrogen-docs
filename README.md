@@ -1,6 +1,12 @@
+<p align="center">
+  <a href="https://github.com/rylanharper/nitrogen">
+    <img src="./public/logo.svg" width="175" height="175" alt="Nitrogen Logo" />
+  </a>
+</p>
+
 # Nitrogen Docs
 
-The documentation for [Nitrogen](https://github.com/rylanharper/nitrogen). Built with [Vitepress](https://vitepress.dev/).
+The documentation for [Nitrogen](https://github.com/rylanharper/nitrogen).
 
 ## 💻 Development
 
