@@ -8,7 +8,7 @@ Nitrogen provides a minimal [GraphQL client](https://github.com/rylanharper/nitr
 
 ## Operations
 
-This project includes pre-built [operations](https://github.com/rylanharper/nitrogen/tree/master/server/operations/shopify) for common Shopify queries and mutations, such as retrieving product data, cart information, and more. Feel free to add or remove operations that fit your project needs.
+This project includes pre-built [operations](https://github.com/rylanharper/nitrogen/tree/master/server/operations/shopify) for common Storefront API queries and mutations. Feel free to add or remove operations that fit your project needs.
 
 ## Composable
 
