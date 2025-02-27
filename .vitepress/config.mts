@@ -12,6 +12,10 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: '/logo.svg',
+    editLink: {
+      pattern: 'https://github.com/rylanharper/nitrogen-docs/edit/master/:path',
+      text: 'Suggest changes to this page',
+    },
     search: {
       provider: 'local'
     },
