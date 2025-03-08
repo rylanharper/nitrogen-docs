@@ -8,35 +8,14 @@ Nitrogen is a [Nuxt](https://nuxt.com/) template inspired by Shopify's [Hydrogen
 
 ## Who Is Nitrogen For?
 
-This template is primarily built for Nuxt developers who have prior experience building headless storefronts using the [Storefront API](https://shopify.dev/docs/api/storefront). However, it can also serve as an excellent starting point for developers who are new to this space.
+This template is primarily built for Vue developers who have prior experience building headless storefronts using the [Storefront API](https://shopify.dev/docs/api/storefront). However, it can also serve as an excellent starting point for developers who are new to this space.
 
 ## Project Structure
 
-This template is structured into two main parts: the `/server` folder, where the API endpoints, GraphQL data, and operations live, and the `/app` folder, which contains the pages, components, and scripts responsible for rendering the frontend application.
+This template is structured into two main parts:
 
-> The `/server` and `/app` folder structure:
-
-```bash
-.
-├── app
-│   ├── assets
-│   ├── components
-│   ├── composables
-│   ├── helpers
-│   ├── layouts
-│   ├── middleware
-│   ├── pages
-│   ├── stores
-│   ├── utils
-│   ├── app.vue
-│   └── router.options.ts
-├── server
-│   ├── api
-│   ├── graphql
-│   ├── operations
-│   ├── utils
-│   └── tsconfig.json
-```
+1. `/server`: This is where the API endpoints, GraphQL data, and operations live.
+2. `/app`: Contains the pages, components, and scripts responsible for rendering the frontend application.
 
 ## Project Goals
 
