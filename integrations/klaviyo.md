@@ -32,15 +32,15 @@ This project includes pre-built [operations](https://github.com/rylanharper/nitr
 To get operations, use the `useKlaviyo` composable:
 
 ```ts
-const klaviyo = useKlaviyo();
+const klaviyo = useKlaviyo()
 ```
 
 Operations can be referenced using this composable with dot notation:
 
 ```ts
 // Klaviyo
-const klaviyo = useKlaviyo();
+const klaviyo = useKlaviyo()
 
 // With dot notation
-await klaviyo.subscribe.newsletter(email.value, listId);
+await klaviyo.subscribe.newsletter(email.value, listId)
 ```

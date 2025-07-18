@@ -18,9 +18,9 @@ hero:
       link: https://nitrogenshop.netlify.app
 
 features:
-  - title: Storefront API
+  - title: Storefront + Admin API
     icon: 💎
-    details: "Connect seamlessly with the Storefront API. No third-party module used."
+    details: "Connect to the Storefront and Admin APIs at the same time. No third-party module used."
   - title: GraphQL Client
     icon: ⚡
     details: "Lightweight GraphQL client with built-in caching for optimized performance."

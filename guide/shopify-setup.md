@@ -2,7 +2,7 @@
 
 This guide will walk you through the required steps on how to configure your Shopify store to work with Nitrogen. This setup process will take approximately 10-15 minutes.
 
-> Be sure to have a [Partner](https://www.shopify.com/partners) account, as it allows you to create unlimited development stores for testing and streamlines your storefront setup process—all without needing a paid Shopify plan.
+> Be sure to have a [Partner](https://www.shopify.com/partners) account, as it allows you to create unlimited development stores for testing and streamlines your storefront setup process — all without needing a paid Shopify plan.
 
 ## API Permissions
 
@@ -17,8 +17,9 @@ After your Headless app is set up, you can add your store `.myshopify` domain, a
 
 ```ini
 # Shopify
-NUXT_SHOPIFY_STOREFRONT=https://your-shop-name.myshopify.com
-NUXT_SHOPIFY_ACCESS_TOKEN=your_storefront_access_token
+NUXT_SHOPIFY_DOMAIN=your-shop-name.myshopify.com
+NUXT_SHOPIFY_ADMIN_ACCESS_TOKEN=your_admin_access_token
+NUXT_SHOPIFY_STOREFRONT_ACCESS_TOKEN=your_storefront_access_token
 NUXT_SHOPIFY_API_VERSION=2025-01
 ```
 
