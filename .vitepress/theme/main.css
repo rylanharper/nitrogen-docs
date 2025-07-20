@@ -8,5 +8,6 @@ html:not(.dark) [img-dark] {
 
 p img {
   margin-top: 20px;
-  border-radius: 8px;
+  margin-bottom: 20px;
+  border-radius: 2px;
 }

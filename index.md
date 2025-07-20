@@ -15,7 +15,7 @@ hero:
       link: /guide/getting-started
     - theme: alt
       text: View Demo
-      link: https://nitrogenshop.netlify.app
+      link: https://nitrogen.rylanharper.workers.dev
 
 features:
   - title: Storefront + Admin API

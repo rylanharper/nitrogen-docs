@@ -87,6 +87,6 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     //     { text: 'Data Fetching', link: '/api/data-fetching' }
     //   ]
     // },
-    { text: 'View Demo', link: 'https://nitrogenshop.netlify.app/' }
+    { text: 'View Demo', link: 'https://nitrogen.rylanharper.workers.dev' }
   ];
 }

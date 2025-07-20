@@ -2,18 +2,23 @@
 
 This guide will walk you through the required steps on how to configure your Shopify store to work with Nitrogen. This setup process will take approximately 10-15 minutes.
 
-> Be sure to have a [Partner](https://www.shopify.com/partners) account, as it allows you to create unlimited development stores for testing and streamlines your storefront setup process — all without needing a paid Shopify plan.
+> Make sure to create a [Partner](https://www.shopify.com/partners) account, as it allows you to create unlimited development stores for testing and streamlines your storefront setup process — all without needing a paid Shopify plan!
 
-## API Permissions
+## Storefront API
 
-Once you have created a storefront, navigate to the [Shopify App Store](https://apps.shopify.com/) and download the [Headless](https://apps.shopify.com/headless) app. This will allow you to easily manage your API permissions and retrieve your Storefront API access token.
+Once you have created a storefront, navigate to the [Shopify App Store](https://apps.shopify.com/) and download the [Headless](https://apps.shopify.com/headless) app. This will allow you to easily manage your Shopify Storefront API permissions and retrieve your Storefront API access token.
 
-> [!IMPORTANT]
 > Make sure all `unauthenticated` Storefront API access permissions are enabled!
 
 ![Documentation image](/src/images/headless_app.png)
 
-After your Headless app is set up, you can add your store `.myshopify` domain, access token, and API version to your environment variables:
+## Admin API
+
+Optionally, if want to extend your Shopify store further by adding logic only found within the Admin API, you must create a custom Admin app by navigating to `Settings` → `Apps and Sales Channels` → `Develop Apps` → `Create an App`. From there, configure the required Admin API permissions for your storefront and retrieve your Admin API access token.
+
+## API Permissions
+
+After your apps are set up, you can add your store `.myshopify` domain, access tokens, and API version to your environment variables:
 
 ```ini
 # Shopify
@@ -35,7 +40,6 @@ There are many ways to organize products in Shopify. For this specific project, 
 
 Generally, each product is recommended to have one `Color` variant option and a `Size` variant option with multiple values. However, it is perfectly fine for a product to have one or even zero variant options to work properly with this template.
 
-> [!IMPORTANT]
 > Make sure to connect each `Color` variant option to its category metafield by clicking the cylinder icon in the right-hand corner. When you connect a variant option to a category metafield, it enables the use of color swatches for that variant!
 
 ![Documentation image](/src/images/variants.png)
@@ -60,8 +64,7 @@ To create the `Color Swatch` metaobject, navigate to `Settings` → `Custom Data
 
 After defining these fields, navigate to `Content` → `Metaobjects`. You will see your newly created `Color Swatch` metaobject. Click into it, then click "Add Entry" in the top-right corner to create your general color swatches with names, hex codes, and optional images.
 
-> [!NOTE]
-> Your `Color Swatch` entries do not need to match my example.
+> Note that your `Color Swatch` entries do not need to match my example.
 
 ![Documentation image](/src/images/swatch_entries.png)
 
@@ -78,8 +81,7 @@ This template uses metafields to make working with custom data in Shopify easier
 3. `details`: This is a rich text metafield for displaying additional product details, such as specifications, materials, or care instructions. Used to enrich product descriptions and provide product-specific information to customers.
 4. `shipping`: This is a rich text metafield for sharing shipping information, like delivery timelines, restrictions, or return policies. Ideal for ensuring customers quickly know all the necessary shipping info before purchasing.
 
-> [!TIP]
-> Once created, these metafields will now be accessible at the bottom of each product page.
+> Once created, these metafields will now be accessible at the bottom of each product page for you or your team to edit.
 
 ![Documentation image](/src/images/product_metafields.png)
 
