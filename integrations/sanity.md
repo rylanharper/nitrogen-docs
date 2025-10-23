@@ -1,6 +1,6 @@
 # Sanity
 
-Nitrogen features a minimal [Sanity](https://www.sanity.io/) integration on a separate `sanity` branch. This is meant to pair with the [Nitrogen Sanity Studio](https://github.com/rylanharper/nitrogen-sanity-studio) template, which synchronizes content between a Sanity dataset and your Shopify storefront.
+Nitrogen features a minimal Sanity studio [template](https://github.com/rylanharper/nitrogen-sanity-studio), which synchronizes content between a Sanity dataset and your Shopify storefront. This allows teams to further enhance product and collection pages with custom modules or curated links — anything, really.
 
 > [Sanity documentation](https://www.sanity.io/docs)
 
@@ -10,7 +10,7 @@ Before connecting your Shopify store to Sanity, you must have a Sanity project a
 
 ## Sanity Connect
 
-Once you have completed the setup, navigate to your Shopify dashboard and install the [Sanity Connect](https://apps.shopify.com/sanity-connect) app. Go through the initial setup process to connect Sanity to your storefront. I recommend reading through the official [Sanity and Shopify with Hydrogen](https://www.sanity.io/learn/course/sanity-and-shopify-with-hydrogen) guide to learn the basics of how to connect your Sanity dataset with your Shopify store data.
+Once you have completed the setup, navigate to your Shopify dashboard and install the [Sanity Connect](https://apps.shopify.com/sanity-connect) app. Go through the initial setup process to connect Sanity to your store. I recommend reading through the official [Sanity and Shopify with Hydrogen](https://www.sanity.io/learn/course/sanity-and-shopify-with-hydrogen) guide to learn the basics of how to connect your Sanity dataset with your Shopify store data.
 
 ## API Permissions
 

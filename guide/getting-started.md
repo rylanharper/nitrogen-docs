@@ -12,12 +12,11 @@ This template is primarily built for Vue developers who have prior experience bu
 
 ## Project Structure
 
-This template is structured into 4 main parts:
+This template is structured into 3 main parts:
 
 1. `/app`: Contains the pages, components, and scripts responsible for rendering the frontend application.
-2. `/data`: This is where the GraphQL and RESTful data live, which are used by the app modules to generate content.
-3. `/modules`: Here you will find the custom Shopify and Klaviyo modules, handling API integration and runtime logic.
-4. `/server`: Mainly used for optional server configurations and sitemap support.
+2. `/modules`: Here you will find the custom Shopify and Klaviyo modules, handling API integration and runtime logic.
+3. `/server`: Mainly used for optional server configurations and sitemap support.
 
 ## Project Goals
 

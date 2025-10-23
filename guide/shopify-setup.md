@@ -36,7 +36,7 @@ To support international currencies and localized experiences, navigate to `Sett
 
 ## Creating Products
 
-There are many ways to organize products in Shopify. For this specific project, I chose to have each product exist as a single SKU. This means that if a product has multiple variations (such as different colors), each variation will exist as its own separate product. This approach allows each variation to display individually in collection grids and helps prevent variant bloat.
+There are many ways to organize products in Shopify. For this specific project, I chose to have each product exist as a single SKU based on its color. This means that if a product has multiple color variations, each variation will exist as its own separate product. This approach allows each variation to display individually in collection grids and helps prevent variant bloat.
 
 Generally, each product is recommended to have one `Color` variant option and a `Size` variant option with multiple values. However, it is perfectly fine for a product to have one or even zero variant options to work properly with this template.
 
@@ -54,7 +54,7 @@ To enable filter and sort functionality, install the [Shopify Search & Discovery
 
 This template uses metaobjects to create unique store objects that can be connected to metafields. The filter component, in particular, makes use of a `Color Swatch` metaobject to filter products by general color name, hexcode, or image. This is especially helpful when a color has varying shades or a specific, non-standard name, as it can be associated with a general color swatch that users recognize.
 
-To create the `Color Swatch` metaobject, navigate to `Settings` → `Custom Data` and click "Add Definition" at the bottom of the page. Name it "Color Swatch" and add the following field definitions:
+To create the `Color Swatch` metaobject, navigate to `Settings` → `Metafields and Metaobjects` and click "Add Definition" at the bottom of the page. Name it "Color Swatch" and add the following field definitions:
 
 1. `name`: Single line text (one value). This represents the general swatch color name.
 2. `hexcode`: Color (one value). This allows you to specify a custom hex code for the swatch color.
@@ -74,7 +74,7 @@ Once this is completed, navigate to `Shopify Search & Discovery` → `Filters` �
 
 ## Metafields
 
-This template uses metafields to make working with custom data in Shopify easier. To enable product metafields, navigate to `Settings` → `Custom Data` → `Products` and add the following product metafield definitions:
+This template uses metafields to make working with custom data in Shopify easier. To enable product metafields, navigate to `Settings` → `Metafields and Metaobjects` → `Products` and add the following product metafield definitions:
 
 1. `filter_color`: This is a metaobject (list of entries) metafield that references the `Color Swatch` metaobject. Ensures general color names, hexcodes, or images can be associated with a product for filtering on collection pages.
 2. `matching_colors`: This is a product (list of products) metafield that connects to products with matching colors. Provides full access to the referenced product's data, which is ideal for checking availability, options, media, and more.
